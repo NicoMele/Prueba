@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("normalize.css");
+@import url("bootstrap.css");
+@import url("socials.css");
+
+.body {
+  background-color: #e3e4e3;
+}
+
+.wrapper {
+  width: 90%;
+  height: 1000px;
+  margin: 20px auto 20px auto;
+  display: table;
+}
+
+section {
+  width: 25%;
+  height: 1000px;
+  background-color: rgba(27, 25, 25, 0.692);
+  border-radius: 2%;
+  float: left;
+}
+
+section img {
+  width: 90%;
+  height: 250px;
+  border-radius: 50%;
+  padding-left: 10.5%;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+.name {
+  height: 30px;
+  position: relative;
+  top: -40px;
+  background-color: rgba(255, 255, 255, 0.582);
+}
+
+.name p {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+
+.profession {
+  background-color: rgb(231, 231, 172);
+  height: 25px;
+}
+
+.profession p {
+  padding-top: 2px;
+  text-align: center;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.about-me {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 15px;
+  color: white;
+}
+
+.about-me h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.about-me p {
+  text-align: justify;
+  font-size: 13px;
+}
+
+article {
+  float: right;
+  width: 50%;
+  padding-left: 50%;
+  border: 1px solid red;
+  background-color: aqua;
+  margin: 10px;
+  margin-right: 150px;
+}
+.first-article,
+.tree-article {
+  height: 250px;
+}
+.second-article {
+  height: 400px;
+}
+
+@media (max-width: 1350px) {
+  i {
+    width: 100%;
+  }
+  .wrapper {
+    height: 1000px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    width: 95%;
+    height: auto;
+  }
+  section {
+    width: 40%;
+  }
+  i {
+    width: 100%;
+  }
+  article {
+  }
+}
+
+@media (max-width: 368px) {
+  .wrapper {
+    width: 95%;
+    height: auto;
+  }
+  section {
+    width: 50%;
+  }
+  aside {
+    width: auto;
+  }
+  i {
+    width: 100%;
+  }
+}

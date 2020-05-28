@@ -1,0 +1,30 @@
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid red;
+  width: 100%;
+}
+
+.socials li {
+  position: relative;
+  left: -40px;
+  list-style: none;
+  padding: 15px;
+  width: 100%;
+}
+
+.socials li i {
+  justify-content: flex-end;
+}
+
+i {
+  color: white;
+  font-size: 30px;
+  padding-right: 100px;
+  width: 1%;
+}
+
+span {
+  font-size: 15px;
+  color: aliceblue;
+}
