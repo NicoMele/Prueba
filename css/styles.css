@@ -27,12 +27,13 @@ a {
   list-style: none;
   text-decoration: none;
   border: 1px solid black;
+  font-weight: bold;
   font-size: 15px;
   color: black;
   height: 30px;
   margin: 10px;
   text-align: center;
-  border-radius: 10%;
+  padding: 5px 5px 5px 5px;
 }
 
 .icons {
@@ -65,9 +66,10 @@ h3 {
 .academics,
 .more {
   width: 85%;
-  height: 205px;
+  height: 205;
   margin-left: 7%;
   background-color: rgb(202, 238, 238);
+  overflow: auto;
 }
 
 #about-me .name {
@@ -133,6 +135,7 @@ span {
   background-color: grey;
   color: white;
   text-decoration: none;
+  text-shadow: 3px 3px 2px black;
 }
 
 .experience {
@@ -145,10 +148,6 @@ span {
 }
 
 .experience {
-  overflow: auto;
-}
-
-.more {
   overflow: auto;
 }
 
